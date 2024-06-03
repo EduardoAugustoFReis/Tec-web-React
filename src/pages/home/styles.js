@@ -9,10 +9,17 @@ export const Container = styled.div`
   grid-template-areas: 
   "header"
   "main";
+
+  @media (max-width: 500px){
+    display: flex;
+    flex-direction: column;
+  }
+ 
 `;
 
 export const Main = styled.div`
   grid-area: main;
+  width: 100%;
 
   background-color: 	#663399;
   display: flex;
@@ -24,6 +31,15 @@ export const Main = styled.div`
     font-size: 2.2rem;
     color: #fff;
     padding-bottom: 1.0rem;
+  }
+
+  @media (max-width: 500px){
+    height: 100%;
+    padding: 1.0rem 5px;
+
+    > h2 {
+      font-size: 1.8rem;
+    }
   }
   
 `;
@@ -48,4 +64,12 @@ export const Form = styled.form`
     margin-top: 5px;
   }
 
+  @media (max-width: 500px){
+    width: 100%;
+    
+    > button {
+      font-size: 1.4rem;
+      padding: 0.8rem;
+    }
+  }
 `;

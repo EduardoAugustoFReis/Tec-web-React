@@ -17,4 +17,16 @@ export const Container = styled.div`
     margin: 1.0rem 0px;
   }
   
+  @media (max-width: 500px){
+
+    label{
+    font-size: 1.2rem;
+  }
+
+  input{
+    height: 2.5rem;
+    font-size: 1.0rem;
+  }
+  
+  }
 `;
