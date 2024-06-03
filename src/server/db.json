@@ -1,0 +1,16 @@
+{
+  "contacts": [
+    {
+      "id": "7506",
+      "nome": "teste",
+      "email": "teste@email.com",
+      "telefone": "61 99999-9999"
+    },
+    {
+      "id": "87d8",
+      "nome": "teste2",
+      "email": "teste2@email.com",
+      "telefone": "61 99999-7777"
+    }
+  ]
+}
